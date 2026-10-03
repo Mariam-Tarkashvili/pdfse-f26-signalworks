@@ -1,7 +1,7 @@
 # Team Contract
 
-**Team name:** [SignalWorks]
-**Date:** [04/10/2026] · CS-PD Fall 2026
+**Team name:** SignalWorks
+**Date:** 04/10/2026 · CS-PD Fall 2026
 
 ## The rule (pre-written, sign under it)
 > No member may answer a question about the product with "that is not my role."
@@ -11,17 +11,17 @@ Accountabilities below say who makes sure something happens. They do not say who
 ## Members and primary accountabilities
 | Name | GitHub | Primary accountability | First outreach target (a real person) |
 |---|---|---|---|
-| [Mariam Tarkashvili] | @[Mariam-Tarkashvili] | Delivery: deadlines, submissions, milestone tags | [name, connection to a pooled problem] |
+| Mariam Tarkashvili | Mariam-Tarkashvili | Delivery: deadlines, submissions, milestone tags | [name, connection to a pooled problem] |
 | [name] | @[user] | Build: repo, code, deployment | [name, connection] |
 | [name] | @[user] | Discovery: interview quality, synthesis | [name, connection] |
 
 Teams of 2: each person carries one and a half accountabilities. Write which.
 
 ## How we work
-- **Channel:** [Messenger group "SignalWorks" ]
-- **Standup:** [Sunday 8PM, 1 hour max]
-- **Response window:** messages acknowledged within [2] hours between [10 AM ] and [9 PM]
-- **Silent teammate with a deadline near:** [Other teammates follow up, after 3 warnings we will contact the instructor]
+- **Channel:** Messenger group "SignalWorks"
+- **Standup:** Sunday 8PM, 1 hour max
+- **Response window:** messages acknowledged within [2] hours between 10 AM  and 9 PM
+- **Silent teammate with a deadline near:** Other teammates follow up, after 3 warnings we will contact the instructor
 - **Demo-ready:** any member can screen-share the current product state in any lab, on 2 minutes notice
 
 ## How we decide
