@@ -1,7 +1,7 @@
 # SignalWorks
 
 **Investigating:** <one line, from the first line of DECISIONS.md>
-**Team:** Mariam Tarkashvili (Mariam-Tarkashvili) · <name> (@github) · <name> (@github)
+**Team:** Mariam Tarkashvili (@Mariam-Tarkashvili) · Beka Revazishvili (@Beqarev) · Luka Mekoshvili (@github)
 
 | Link | Status |
 |---|---|
