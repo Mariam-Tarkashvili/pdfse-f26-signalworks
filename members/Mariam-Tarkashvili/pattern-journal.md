@@ -8,4 +8,4 @@ Same prompt every week: Where did you apply this pattern this week, where did yo
 
 I created a repository and a catch-up agenda instead of waiting for direction. I used it to organize what I needed to learn and decide what to tackle first.
 
-**DECISIONS.md:** TBD
+**DECISIONS.md:** N/A
