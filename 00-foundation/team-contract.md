@@ -39,4 +39,4 @@ Committing this file is signing it.
 |---|---|---|
 | Mariam Tarkashvili | Mariam-Tarkashvili | 04/10/2026 |
 | Beka Revazishvili | Beqarev | 04/10/2026 |
-| | | |
+| Luka Mekoshvili | Meqonator | 05/10/2026 |
