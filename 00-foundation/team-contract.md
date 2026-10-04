@@ -13,7 +13,7 @@ Accountabilities below say who makes sure something happens. They do not say who
 |---|---|---|---|
 | Mariam Tarkashvili | Mariam-Tarkashvili | Delivery: deadlines, submissions, milestone tags | [name, connection to a pooled problem] |
 | Beka Revazishvili | Beqarev | Build: repo, code, deployment | [name, connection] |
-| [name] | @[user] | Discovery: interview quality, synthesis | [name, connection] |
+| Luka Mekoshvili | Meqonator | Discovery: interview quality, synthesis | [name, connection] |
 
 Teams of 2: each person carries one and a half accountabilities. Write which.
 
