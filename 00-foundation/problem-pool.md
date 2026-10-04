@@ -99,3 +99,54 @@ The place was **not shown properly in the images**. When I arrived, the flat did
 - A wasted trip across town to view it
 - Time spent chasing a listing that wasn’t what it looked like
 - Having to keep searching instead of being done that day
+
+---
+
+## 7. Dorm Laundry Uncertainty
+
+**AUTHOR:** [Your Name]
+
+**WHO I watched:**  
+KIU students, including me, who live in the dorms and use the shared washing machines on weekday evenings.
+
+**STRUGGLE I saw:**  
+We carry a full basket down to the laundry room only to find every machine running, with no sign of when any will finish. Some people wait next to the machines, others leave their clothes in a pile and come back, and sometimes finished loads sit for an hour because the owner forgot.
+
+**COST I can name:**
+- **30-40 minutes** wasted per failed trip
+- Often **2-3 trips** before finding a free machine
+- Missing study time or dinner while waiting
+
+---
+
+## 8. Finding a Study Space Before Exams
+
+**AUTHOR:** [Your Name]
+
+**WHO I watched:**  
+KIU students, including me, who need a quiet place to study during midterm and final weeks.
+
+**STRUGGLE I saw:**  
+Library seats and study rooms fill up early, and there is no way to check from outside which ones are free. Students walk from room to room opening doors, and some leave bags on seats for hours to "reserve" them while they are away.
+
+**COST I can name:**
+- **20-30 minutes** spent searching before studying begins
+- Studying in a noisy dorm or café instead
+- Less preparation time when it matters most
+
+---
+
+## 9. Canteen Queue Between Classes
+
+**AUTHOR:** [Your Name]
+
+**WHO I watched:**  
+KIU students, including me, who have only a **15-20 minute** break between classes and want to eat at the campus canteen.
+
+**STRUGGLE I saw:**  
+The queue is long at peak times, and from the entrance we cannot tell how long it will take. Some students join the line and have to leave before reaching the front, while others skip the meal entirely and go to class hungry.
+
+**COST I can name:**
+- **15-20 minutes** of the break lost in line
+- Skipped meals or a snack instead of lunch
+- Arriving late to the next class
