@@ -48,3 +48,54 @@ At unpredictable times during weekdays, especially during exam weeks, the cafete
 - **10 students** leaving the queue without eating
 - Arriving **15 minutes late** to the next class
 - **5 GEL** spent on shop snacks instead of a proper meal
+
+---
+
+## 4. Clinic Waiting Time
+
+**AUTHOR:** Beka Revazishvili
+
+**WHO I watched:**  
+Myself at a clinic in Kutaisi, going in for a routine visit during a weekday.
+
+**STRUGGLE I saw:**  
+I took a number and waited about 2 hours with no clear update on how long it would take or whether the queue was even moving. People kept asking the desk the same question; some left and came back later.
+
+**COST I can name:**
+- **2 hours** spent for a short appointment
+- The rest of that afternoon basically gone
+- Having to rearrange whatever I planned after the visit
+
+---
+
+## 5. Shop Bookings Over Messenger
+
+**AUTHOR:** Beka Revazishvili
+
+**WHO I watched:**  
+A small cafe side of things where orders or bookings are handled by **direct Messenger chat** (not a proper booking system).
+
+**STRUGGLE I saw:**  
+Availability and “is this still free / ready?” only live in chat threads. Messages pile up, replies come late or get mixed between customers, and it’s unclear which request was confirmed until someone follows up again in the chat.
+
+**COST I can name:**
+- Extra back-and-forth messages just to confirm one thing
+- Risk of a double-promise or a missed reply when the chat is busy
+- Time lost waiting on a “yes” that never clearly arrives
+
+---
+
+## 6. Housing Photos vs Reality
+
+**AUTHOR:** Beka Revazishvili
+
+**WHO I watched:**  
+Myself as a KIU student looking at a rented place in Kutaisi that was advertised with photos online.
+
+**STRUGGLE I saw:**  
+The place was **not shown properly in the images**. When I arrived, the flat didn’t match what I’d seen (condition, space, or details that mattered) and several problems only became obvious on site.
+
+**COST I can name:**
+- A wasted trip across town to view it
+- Time spent chasing a listing that wasn’t what it looked like
+- Having to keep searching instead of being done that day
