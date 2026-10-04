@@ -12,7 +12,7 @@ Accountabilities below say who makes sure something happens. They do not say who
 | Name | GitHub | Primary accountability | First outreach target (a real person) |
 |---|---|---|---|
 | Mariam Tarkashvili | Mariam-Tarkashvili | Delivery: deadlines, submissions, milestone tags | [name, connection to a pooled problem] |
-| [name] | @[user] | Build: repo, code, deployment | [name, connection] |
+| Beka Revazishvili | Beqarev | Build: repo, code, deployment | [name, connection] |
 | [name] | @[user] | Discovery: interview quality, synthesis | [name, connection] |
 
 Teams of 2: each person carries one and a half accountabilities. Write which.
@@ -38,5 +38,5 @@ Committing this file is signing it.
 | Name | GitHub | Date |
 |---|---|---|
 | Mariam Tarkashvili | Mariam-Tarkashvili | 04/10/2026 |
-| | | |
+| Beka Revazishvili | Beqarev | 04/10/2026 |
 | | | |
