@@ -104,7 +104,7 @@ The place was **not shown properly in the images**. When I arrived, the flat did
 
 ## 7. Dorm Laundry Uncertainty
 
-**AUTHOR:** [Your Name]
+**AUTHOR:** Luka Mekoshvili
 
 **WHO I watched:**  
 KIU students, including me, who live in the dorms and use the shared washing machines on weekday evenings.
@@ -121,7 +121,7 @@ We carry a full basket down to the laundry room only to find every machine runni
 
 ## 8. Finding a Study Space Before Exams
 
-**AUTHOR:** [Your Name]
+**AUTHOR:** Luka Mekoshvili
 
 **WHO I watched:**  
 KIU students, including me, who need a quiet place to study during midterm and final weeks.
@@ -138,7 +138,7 @@ Library seats and study rooms fill up early, and there is no way to check from o
 
 ## 9. Canteen Queue Between Classes
 
-**AUTHOR:** [Your Name]
+**AUTHOR:** Luka Mekoshvili
 
 **WHO I watched:**  
 KIU students, including me, who have only a **15-20 minute** break between classes and want to eat at the campus canteen.
