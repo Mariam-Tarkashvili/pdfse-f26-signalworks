@@ -16,7 +16,7 @@ Shortlist 3 problems from your Lab 1 pool. Score each filter 0, 1, or 2, and wri
 
 **First line of DECISIONS.md** (copy, fill, commit):
 ```
-Wk2 · Investigate: Students cannot tell how long the canteen queue is between classes, so they skip meals or arrive late · evidence: 00-foundation/problem-pool.md (Mariam Tarkashvili, Luka Mekoshvili), 00-foundation/four-filters-scorecard.md · runner-up: Dorm laundry uncertainty · owner: LM
+Wk2 · Investigate: Students cannot tell how long the canteen queue is between classes, so they skip meals or arrive late · evidence: 00-foundation/problem-pool.md (Mariam Tarkashvili, Luka Mekoshvili,Beqa Revazishvili), 00-foundation/four-filters-scorecard.md · runner-up: Dorm laundry uncertainty · owner: LM
 ```
 
 Rules: a 0 on filter 2 kills a problem outright, however high the rest. Ties go to the higher filter 4.
