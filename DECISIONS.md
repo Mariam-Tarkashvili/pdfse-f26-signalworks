@@ -1,1 +1,1 @@
-Wk2 · Investigate: [problem, one line] · evidence: 00-foundation/problem-pool.md ([authors]), 00-foundation/four-filters-scorecard.md · runner-up: [problem] · owner: [initials]
+Wk2 · Investigate: Students cannot tell how long the canteen queue is between classes, so they skip meals or arrive late · evidence: 00-foundation/problem-pool.md (Mariam Tarkashvili, Luka Mekoshvili,Beqa Revazishvili), 00-foundation/four-filters-scorecard.md · runner-up: Dorm laundry uncertainty · owner: LM
