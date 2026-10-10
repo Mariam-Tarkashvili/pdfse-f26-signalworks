@@ -13,8 +13,11 @@ Start from your ICP's five, then add everyone they introduce, until three interv
 | Anano, master's student at KIU (intellectual property) | Fits classes around a tight schedule; little time to eat on campus | In person (Mariam) | Wk2, MT | Yes | Mon 12 Oct 18:30, Mariam asks, Luka logs |
 | Tina, computer science student at KIU, lives off campus | Cannot go home between classes, so depends on campus food | Messenger (Mariam) | Wk2, MT | No | Tue 13 Oct 13:00, Luka asks, Beka logs |
 | Nikoloz, canteen regular | Eats at the canteen most weekdays; meets the queue often | In person (Mariam) | Wk2, MT | No | Tue 13 Oct 17:00, Beka asks, Mariam logs |
+| Lika, 2nd-year law student at KIU | Back-to-back classes; eats at the cafeteria between lectures; not on our PDFSE team | Messenger (Luka) | Wk2, LM | Yes | Sat 10 Oct 17:00, Luka asks, Beka logs |
+| Saba, 3rd-year business student at KIU | On campus from morning to evening; skips lunch when breaks are short | In person (Luka) | Wk2, LM | Yes | Sun 11 Oct 13:00, Luka asks, Mariam logs |
+| Mariami, master's student at KIU (finance) | Fits classes around work; little time to eat on campus | Messenger (Luka) | Wk2, LM | Yes | Sun 11 Oct 16:00, Luka asks, Beka logs |
 
-**Booked:** 5 (replace with real people and real times before homework counts).
+**Booked:** 8 (replace with real people and real times before homework counts).
 
 ## The message (adapt it, never paste it)
 > Hi [name], I'm [you], a student at KIU. We're learning how students actually handle lunch between classes on campus day to day. Not selling anything. Could I ask you about it for 20 minutes this week? [Day] or [day], whichever suits you.
