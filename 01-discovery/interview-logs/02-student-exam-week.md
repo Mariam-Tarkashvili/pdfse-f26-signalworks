@@ -1,6 +1,8 @@
 # Interview 02 - 4th-year student, exam week - (code name: Math-Y4)
 
-**Week:** 3 - **Asker:** BR - **Logger:** MT - **Consent:** yes; notes only, no recording
+**Week:** 3 - **Asker:** BR - **Logger:** MT
+
+**Consent:** yes; notes only, no recording
 
 **Real or practice:** real
 
@@ -21,7 +23,7 @@
 
 **Prediction check:** Yes. Unprompted mention of texting friends specifically to gauge wait/line before going down.
 
-**Surprise:** Willing to skip meals entirely in exam week to avoid the anxiety of an uncertain wait - hunger preferred over queue risk.
+**What surprised us:** Willing to skip meals entirely in exam week to avoid the anxiety of an uncertain wait - hunger preferred over queue risk.
 
 **Commitment:** Nothing direct; offered to ask around their dorm floor.
 

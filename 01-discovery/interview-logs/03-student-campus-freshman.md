@@ -1,6 +1,8 @@
 # Interview 03 - 1st-year student, on campus - (code name: MGT-Y1)
 
-**Week:** 3 - **Asker:** BR - **Logger:** MT - **Consent:** yes; notes only, no recording
+**Week:** 3 - **Asker:** BR - **Logger:** MT
+
+**Consent:** yes; notes only, no recording
 
 **Real or practice:** real
 
@@ -21,7 +23,7 @@
 
 **Prediction check:** Yes. Raised unpredictability of busy times immediately when describing what happens.
 
-**Surprise:** Beyond wait time, running out of food after standing in line was a primary frustration - time lost and no meal.
+**What surprised us:** Beyond wait time, running out of food after standing in line was a primary frustration - time lost and no meal.
 
 **Commitment:** Introduced roommate who often orders delivery with them when the line is bad.
 

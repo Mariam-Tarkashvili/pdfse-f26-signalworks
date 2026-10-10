@@ -1,6 +1,8 @@
 # Interview 01 - 2nd-year student, short break - (code name: CS-Y2)
 
-**Week:** 3 - **Asker:** BR - **Logger:** MT - **Consent:** yes; notes only, no recording
+**Week:** 3 - **Asker:** BR - **Logger:** MT
+
+**Consent:** yes; notes only, no recording
 
 **Real or practice:** real
 
@@ -21,7 +23,7 @@
 
 **Prediction check:** Yes. Raised unpredictable wait times and long queues while describing the routine, before we named wait uncertainty.
 
-**Surprise:** If the line extends past the doorway, they abandon hot cafeteria meals entirely and switch to shop snacks - the doorway is their go/no-go signal.
+**What surprised us:** If the line extends past the doorway, they abandon hot cafeteria meals entirely and switch to shop snacks - the doorway is their go/no-go signal.
 
 **Commitment:** Introduction to a classmate who frequently skips lunch during exams.
 
