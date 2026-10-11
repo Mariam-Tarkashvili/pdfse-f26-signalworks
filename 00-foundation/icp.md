@@ -1,6 +1,6 @@
 # Ideal Customer Profile
 
-**Name (invented) and one-line sketch:** Ana, 20, second-year KIU student with back-to-back classes and a short break that is her only chance to eat on campus.
+**Name and one-line sketch:** Ana, 20, second-year KIU student with back-to-back classes and a short break that is her only chance to eat on campus.
 
 **Their situation:** She lives near campus or in a student flat in Kutaisi, carries a full weekday timetable, and eats at the **KIU cafeteria** when she has time between lectures. On busy days she checks the line with her eyes from the door, sometimes asks a friend already in the queue how long it looks, and otherwise has no signal for whether she can finish a meal before the next class.
 
@@ -17,12 +17,20 @@
 **How we reach five of them this week:**
 | Person or channel | Who on our team | Contacted? |
 |---|---|---|
-| Roommate / flatmate who eats at the cafeteria on weekdays | Beka | No |
-| Classmate from another group (not on our PDFSE team) who uses the cafeteria between lectures | Mariam | No |
-| Friend in a different year who stays on campus for lunch | Luka | No |
+| Roommate / flatmate who eats at the cafeteria on weekdays | Beka | Yes (Nika) |
+| Classmate from another group (not on our PDFSE team) who uses the cafeteria between lectures | Mariam | Yes (Tina) |
+| Friend in a different year who stays on campus for lunch | Luka | Yes (Giorgi) |
 | Dorm / student housing neighbor who queues during exam week | Beka | No |
-| Someone we meet at the cafeteria door this week and ask for 20 minutes later | Mariam | No |
+| Someone we meet at the cafeteria door this week and ask for 20 minutes later | Mariam | Yes (Nikoloz) |
 
-**Evidence so far:** `00-foundation/problem-pool.md`, Mariam's statement **3. KIU Cafeteria Queues** (short break between classes; exam-week spikes; skip lunch / late to class / ~5 GEL snacks). After interviews: links to logs go here.
+**Evidence from the interview logs:**
+- She judges the line by eye from the door and turns around if it looks long (logs 01, 04, 10).
+- She texts a friend to ask about the line, and the answer is unreliable or never comes (logs 02, 05, 07).
+- Her break is fixed at about 30 to 40 minutes, so she cannot absorb a slow day (logs 06, 07, 08).
+- A wrong guess costs her about 15 minutes of class or 4 to 6 GEL on snacks (logs 01, 07, 08).
+- Exam weeks are when it is worst (logs 02, 10).
+- Students who bring food from home have left the problem behind, which is why they are not Ana (logs 06, 09).
 
-This is v1. It will change after your first three interviews, and that is the point.
+**Where the profile started:** `00-foundation/problem-pool.md`, Mariam's statement **3. KIU Cafeteria Queues**.
+
+This is v2, updated after ten interviews.
