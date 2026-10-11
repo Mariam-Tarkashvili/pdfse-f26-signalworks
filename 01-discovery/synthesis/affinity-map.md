@@ -106,4 +106,4 @@ Single-interview quotes. Move one up when a second interview echoes it.
 
 ---
 
-Self-check before committing: swap your product's name for a competitor's in each pattern sentence. If the sentence still reads true, it is a topic, not a pattern. Go back to the quotes.
+
