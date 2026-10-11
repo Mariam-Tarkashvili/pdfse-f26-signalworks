@@ -17,14 +17,16 @@
 
 ## Step 3: The beliefs we did not pick
 Each one becomes at least one question in your interview script, so you still hear about it.
-- Short break / next class pressure (Beka) → script question 6: "Walk me through the last time your break was too short to eat. What did you do?"
+- Short break / next class pressure (Beka) → script question 6: "Walk me through the shortest break you had last week. What did you do in it?"
 - Peak rush when classes end together (Luka) → script question 7: "Tell me about the last exam-week lunch. What was different from a normal day?"
 
 ## Checks before you commit
 - [x] No product words (app, platform, tool, AI, bot)
 - [x] "When" is a moment, not "sometimes" or "when busy"
 - [x] "We are wrong if" could be seen in a single interview log
-- [ ] The "we are wrong if" line is copied to the top of your script and your log template
+- [x] The "we are wrong if" line is copied to the top of your script and your log template
 
 ## After interviews (fill in Week 3)
-**Verdict:** [confirmed / weakened / killed] · **Evidence:** [links to logs] · Record the verdict in `DECISIONS.md`.
+**Verdict:** confirmed · **Evidence:** logs 01, 02, 03, 04, 05, 06, 07, 10 in `01-discovery/interview-logs/` · Recorded in `DECISIONS.md`.
+
+Week 3 verdict: confirmed. Evidence: logs 01, 02, 03, 04, 05, 06, 07, 10. See DECISIONS.md.
