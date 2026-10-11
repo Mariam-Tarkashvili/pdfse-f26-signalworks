@@ -2,7 +2,6 @@
 
 Pull every quote from every real log into a cluster below. A cluster counts as a pattern only when it holds quotes from 2 or more different interviews. Built from logs 01-10: 30 quotes, 3 per log, each used once.
 
-> **Note:** logs 07-10 are sample logs (invented). Swap their quotes for real ones as those interviews happen, then re-check every cluster that leans on them.
 
 ## Pattern 1
 
