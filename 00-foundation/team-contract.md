@@ -11,16 +11,17 @@ Accountabilities below say who makes sure something happens. They do not say who
 ## Members and primary accountabilities
 | Name | GitHub | Primary accountability | First outreach target (a real person) |
 |---|---|---|---|
-| Mariam Tarkashvili | Mariam-Tarkashvili | Delivery: deadlines, submissions, milestone tags | [name, connection to a pooled problem] |
-| Beka Revazishvili | Beqarev | Build: repo, code, deployment | [name, connection] |
-| Luka Mekoshvili | Meqonator | Discovery: interview quality, synthesis | [name, connection] |
+| Mariam Tarkashvili | Mariam-Tarkashvili | Delivery: deadlines, submissions, milestone tags | Salome, classmate from another group who uses the cafeteria between classes |
+| Beka Revazishvili | Beqarev | Build: repo, code, deployment | Nika, roommate who eats at the cafeteria on weekdays |
+| Luka Mekoshvili | Meqonator | Discovery: interview quality, synthesis | Giorgi, friend in a different year who stays on campus for lunch |
 
 Teams of 2: each person carries one and a half accountabilities. Write which.
 
 ## How we work
 - **Channel:** Messenger group "SignalWorks"
 - **Standup:** Sunday 8PM, 1 hour max
-- **Response window:** messages acknowledged within [2] hours between 10 AM  and 9 PM
+- **Response window:** messages acknowledged within 2 hours between 10 AM and 9 PM
+- **Who did what:** each member keeps a weekly journal in `members/<username>/`, commits their own work under their own GitHub account, and puts their initials as owner on the `DECISIONS.md` lines they drove
 - **Silent teammate with a deadline near:** Other teammates follow up, after 3 warnings we will contact the instructor
 - **Demo-ready:** any member can screen-share the current product state in any lab, on 2 minutes notice
 
