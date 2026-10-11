@@ -10,7 +10,7 @@ Start from your ICP's five, then add everyone they introduce, until three interv
 | Salome, classmate other group | Uses cafeteria between classes; not on our PDFSE team | In person / Messenger (Mariam) | Wk2, BR | Yes | Thu 17:30, Mariam asks, Luka logs |
 | Giorgi, different-year friend | Stays on campus for lunch; queues more in exam weeks | Messenger (Luka) | Wk2, BR | Yes | Fri 16:00, Luka asks, Beka logs |
 | Nata, management student at KIU | On campus on class days; eats between lectures | In person (Mariam) | Wk2, MT | Yes | Fri 9 Oct 13:00, Beka asks, Mariam logs |
-| Anano, master's student at KIU (intellectual property) | Fits classes around a tight schedule; little time to eat on campus | In person (Mariam) | Wk2, MT | Yes | Mon 12 Oct 18:30, Mariam asks, Luka logs |
+| Anano, master's student at KIU (intellectual property) | Fits classes around a tight schedule; little time to eat on campus | In person (Mariam) | Wk2, MT | Yes | Sun 11 Oct 14:30, Mariam asks, Luka logs |
 | Tina, computer science student at KIU, lives off campus | Cannot go home between classes, so depends on campus food | Messenger (Mariam) | Wk2, MT | No | Tue 13 Oct 13:00, Luka asks, Beka logs |
 | Nikoloz, canteen regular | Eats at the canteen most weekdays; meets the queue often | In person (Mariam) | Wk2, MT | No | Tue 13 Oct 17:00, Beka asks, Mariam logs |
 | Lika, 2nd-year law student at KIU | Back-to-back classes; eats at the cafeteria between lectures; not on our PDFSE team | Messenger (Luka) | Wk2, LM | Yes | Sat 10 Oct 17:00, Luka asks, Beka logs |
