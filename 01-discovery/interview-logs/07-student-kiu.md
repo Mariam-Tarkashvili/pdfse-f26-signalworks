@@ -1,9 +1,8 @@
 # Interview 07 · Student, 2nd year, computer science · (name: Tina)
 
-> **Sample log.** Invented to show what a log can look like. Not a real interview; do not count it as evidence.
 
 **Week:** 2 · **Asker:** LM · **Logger:** MT · **Consent:** yes; notes only, no recording
-**Real or practice:** sample (invented)
+**Real or practice:** Real
 
 **Context:** Second-year computer science student who lives off campus. Tuesdays and Thursdays she has three lectures with one 30-minute break at 13:00, and she eats at the canteen about three times a week. Not in this course.
 **Our prediction:** We are wrong if students describing the last time they skipped lunch or arrived late do not mention uncertainty about wait time (guessing at the door / no way to know) before we bring it up.
