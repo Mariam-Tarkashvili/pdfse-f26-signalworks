@@ -1,7 +1,7 @@
 # Interview 07 · Student, 2nd year, computer science · (name: Tina)
 
 
-**Week:** 2 · **Asker:** LM · **Logger:** MT · **Consent:** yes; notes only, no recording
+**Week:** 2 · **Asker:** MT · **Logger:** BR · **Consent:** yes; notes only, no recording
 **Real or practice:** Real
 
 **Context:** Second-year computer science student who lives off campus. Tuesdays and Thursdays she has three lectures with one 30-minute break at 13:00, and she eats at the canteen about three times a week. Not in this course.
