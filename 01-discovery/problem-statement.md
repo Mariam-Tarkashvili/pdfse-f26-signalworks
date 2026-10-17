@@ -1,37 +1,30 @@
 # Problem Statement
 
-**In one sentence:** KIU students with a fixed break between classes cannot tell, from the canteen door, how long it will take to get food, so they either walk away hungry or stay and pay for it with the next class.
+## The statement
 
-## Who has the problem
+KIU students, from first-years to master's students, who have a fixed break of 20 to 40 minutes between classes and would eat at the campus canteen if they could (01, 03, 04, 06, 07, 08). The problem shows up at the canteen door during the 13:00 to 14:00 break, in the few seconds when they decide whether to join a line they cannot time, two to four times a week and every day in exam weeks (01, 02, 03, 04, 07). It costs them skipped lunches (two a week in 04, every exam day in 02), 15 minutes late to class or a project meeting (01, 05), an attendance mark refused by a lecturer (08), and 4 to 10 GEL on snacks or delivery instead of a meal (01, 03, 06, 07, 08). Today they count heads from the doorway and turn around if the line passes the door or holds more than five or six people, or they text a friend who is already inside (01, 02, 04, 05, 07, 10). Neither tells them the wait: "the line looks small from the outside, but inside it gets stuck at the register", and the friend replies "I don't know, it's moving slowly for some reason" (05; also 07: "Sometimes she answers, sometimes not").
 
-Students whose break between classes is fixed at 20 to 40 minutes and who would eat at the campus canteen if they could: a 20-minute break between lectures (logs 01, 04), "exactly 30 minutes free" (log 06), a 30-minute break at 13:00 (log 07), a single 40-minute break at 14:00 (log 08). They run from first-years to master's students (logs 03, 01, 04, 05, 02, 06).
+## What the evidence ruled out
 
-It is not everyone. A student with 15-minute breaks never tries the canteen, whatever the line looks like (log 09). A regular with breaks of 40 minutes or more has learned when the rush passes and copes on normal days (log 10).
+- Our prediction was confirmed, not ruled out: 8 of 10 interviews raised not knowing the wait before we mentioned it (01, 02, 03, 04, 05, 06, 07, 10), recorded as Wk3 in `DECISIONS.md`.
+- It narrowed what the problem is. It is not the length of the line: "If the line took 10 minutes it would be fine" (06).
+- It narrowed who has it. A student with 15-minute breaks never tries the canteen at all (09), and a regular with 40-minute breaks copes on normal days and only loses in exam weeks (10).
 
-## When it happens
+## What is still open
 
-At the canteen door, in the peak hour between 13:00 and 14:00 (logs 04, 07), in the few seconds when the student has to decide whether to join. It happens two to four times a week in normal weeks (logs 01, 03, 04) and every day in exam weeks (logs 01, 02).
+- Whether students would act on a wait time they did not see with their own eyes or hear from a friend. Every log shows them trusting the doorway or a friend (01, 02, 04, 05, 07, 10); none shows them trusting anything else. This is the prototype test in `02-design/prototype-plan.md`.
 
-What they can see at that moment is how many people are standing there. What they need to know is how long it will take, and the two do not match: a line that looks small from outside can be stuck at the register (log 05), and the same line takes 5 minutes one day and 25 the next (logs 01, 04, 07). Texting a friend who is already inside does not settle it, because the friend does not answer or cannot tell either (logs 05, 07).
+## Pattern behind it
 
-The length of the line is not the complaint. One student said a 10-minute wait "would be fine"; what she cannot do is risk not knowing (log 06).
+- Pattern: Standing at the canteen door, students cannot tell whether the wait will be 5 minutes or 25.
+- Root cause: Students have to bet a fixed break on a line whose speed is decided at the register, out of sight, and the only signal they can get before committing is a head count from the door or a friend who may not answer.
 
-## What it costs them
+---
 
-- **The meal.** Two skipped lunches a week (log 04), two in one week (log 07), every exam day (log 02), three days out of five in midterm week (log 10). Students say they would sooner go hungry than be late (logs 02, 04).
-- **Class time and marks.** Fifteen minutes late to class, twice (log 01). Fifteen minutes late to a team project meeting (log 05). Seven minutes late and refused the attendance mark by a lecturer who grades attendance (log 08).
-- **Break minutes with nothing to show.** Fifteen minutes of a 30-minute break, then left without food (log 07). Twenty minutes in the line, and the food was gone at the counter (logs 03, 08).
-- **Money.** 4 to 6 GEL on shop snacks in place of a meal (logs 01, 07, 08, 10). 8 to 10 GEL extra on delivery (logs 03, 06).
-- **The afternoon.** Poor concentration in a 15:00 seminar (log 04), low energy for an evening exam (log 02), nothing to eat until 16:00 or 17:00 (logs 05, 07).
+**Self-check before committing**
 
-## What we did not expect
-
-There is a second unknown at the door besides the wait: whether any food will be left. Two students waited through the whole line and found it gone (logs 03, 08), and one said she would not have joined at all had she known (log 08).
-
-## What they do about it today
-
-See `01-discovery/competitive-landscape-seed.md`. In short: they look, they text a friend, or they stop trying (logs 01, 02, 06).
-
-## Where this comes from
-
-Ten interview logs in `01-discovery/interview-logs/`, grouped in `01-discovery/synthesis/affinity-map.md` and traced to a root cause in `01-discovery/synthesis/patterns-analysis.md`. Prediction verdict: confirmed, recorded in `DECISIONS.md` (Wk3).
+- [x] Every one of the five sentences ends with at least one log number.
+- [x] No product words: app, platform, tool, AI, bot, solution, we will build.
+- [x] Read sentence 1 aloud. Could a stranger find this person in a room of fifty?
+- [x] Swap in a different team's product. If the paragraph still reads true, it is too generic. Go back to the quotes.
+- [x] Nothing here came from a search engine. If it is not in a log, it is not in this file.
