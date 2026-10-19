@@ -14,8 +14,14 @@ Stayed on evidence instead of jumping to a product idea. Helped land the cafeter
 
 **DECISIONS.md:** team pick line — investigate cafeteria queue uncertainty (owner LM); I did not drive that line, but built ICP + hypothesis evidence that sits under it.
 
-## Week 3 · Patterns from quotes, not ideas
+## Week 3 · Kill your favorite idea
 
-Ran three real cafeteria interviews as asker (logs `01-student-cafeteria.md`, `02-student-exam-week.md`, `03-student-campus-freshman.md`) with Mariam logging — beyond the Build lane again, because discovery needed bodies in the room. Wrote the logs with verbatim Georgian quotes, consent, and a surprise line each. Drafted `01-discovery/synthesis/affinity-map.md` from those nine quotes into three pattern sentences (unpredictable wait, bail to Spar/delivery/skip, queue costs lateness or wasted standing), and left it open for teammates' next interviews instead of locking the map on my three alone.
+My favorite belief was that the real pain is the short break itself, not wait uncertainty. I still put it in the script as an unpicked belief, then asked three real interviews (`01-student-cafeteria.md`, `02-student-exam-week.md`, `03-student-campus-freshman.md`) as asker with Mariam logging. All three raised not knowing the wait before we named it, which supported confirming the team prediction instead of mine. Outside Build: wrote the logs with verbatim quotes and drafted an early affinity map from those nine quotes. Hack: used each log's Prediction check line to tally yes/no for the hypothesis instead of re-reading every transcript. `01-discovery/interview-logs/`, early `01-discovery/synthesis/affinity-map.md`
 
-**DECISIONS.md:** no new line from me this week; prediction verdict still pending until the team has more logs.
+**DECISIONS.md:** supplied evidence logs 01–03 for the Wk3 confirmed verdict (owner MT).
+
+## Week 4 · The prototype is the conversation
+
+Read Mariam's `02-design/prototype-plan.md` as Build lead so I know what we will actually ship to test: whether a student will decide from a wait signal on a phone instead of walking to the door. Outside my lane, I filled the empty `01-discovery/synthesis/patterns-analysis.md` (five whys on Patterns 1–3) so Milestone 1 rubric row 4 was not missing, and checked it against the problem statement root cause. Hack: started from the three strongest affinity clusters and the root cause already written in `01-discovery/problem-statement.md` instead of redoing five whys from scratch. `01-discovery/synthesis/patterns-analysis.md`, `02-design/prototype-plan.md`
+
+**DECISIONS.md:** Wk4 evidence includes `patterns-analysis.md`, which I completed.
