@@ -1,8 +1,20 @@
-// Copy to: app/app/page.tsx
-// Sends people to the first journey step.
-
-import { redirect } from "next/navigation";
+import Link from "next/link";
 
 export default function Home() {
-  redirect("/canteen");
+  return (
+    <main
+      style={{
+        minHeight: "100dvh",
+        display: "grid",
+        placeItems: "center",
+        background: "#0f1419",
+        color: "#f4f1ea",
+        fontFamily: "system-ui, sans-serif",
+      }}
+    >
+      <Link href="/canteen" style={{ color: "#f4f1ea", fontSize: 18 }}>
+        Open canteen wait →
+      </Link>
+    </main>
+  );
 }
