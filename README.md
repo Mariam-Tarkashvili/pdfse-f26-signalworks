@@ -1,11 +1,11 @@
 # SignalWorks
 
-**Investigating:** <one line, from the first line of DECISIONS.md>
+**Investigating:** Students cannot tell how long the canteen queue is between classes, so they skip meals or arrive late
 **Team:** Mariam Tarkashvili (@Mariam-Tarkashvili) · Beka Revazishvili (@Beqarev) · Luka Mekoshvili (@MEQONATOR)
 
 | Link | Status |
 |---|---|
-| Prototype | coming Week 5 |
+| Prototype | https://kiu-break-bite-clock.lovable.app/ |
 | Live product | coming Week 7 |
 | Analytics dashboard (PostHog) | coming Week 7 |
 | 12-month model | coming Week 12 |
