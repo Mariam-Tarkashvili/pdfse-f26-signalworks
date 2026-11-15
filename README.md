@@ -6,6 +6,7 @@
 | Link | Status |
 |---|---|
 | Prototype | https://kiu-break-bite-clock.lovable.app/ |
+| Board | https://github.com/users/Mariam-Tarkashvili/projects/2 |
 | Live product | coming Week 7 |
 | Analytics dashboard (PostHog) | coming Week 7 |
 | 12-month model | coming Week 12 |
