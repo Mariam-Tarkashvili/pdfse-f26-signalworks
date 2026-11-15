@@ -39,7 +39,7 @@ Steps match the thin slice we will put in `03-build/mvp-boundary.md` (Ana checks
 | 2. App reads current minutes + last updated from Neon | Next.js server route + Postgres | `student_sees_wait` (client, after render, with `minutes`) |
 | 3. She sees wait against her break (food-by vs class time) | Next.js page | `student_sees_break_fit` (client, with `minutes`, `class_at`) |
 | 4. She sees why it is slow (e.g. stuck at register) | Next.js page | `student_sees_reason` (client, with `reason`) |
-| 5. She decides go / don't go (and we stop; no booking) | Phone + PostHog only | `student_decides` (client, with `decision`: go / skip) — north-star candidate |
+| 5. She decides go / don't go (and we stop; no booking) | Phone + PostHog only | `student_makes_lunch_decision` (client, with `decision`: go / skip) — north-star candidate |
 
 ## Secrets and data
 
