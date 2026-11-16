@@ -1,6 +1,8 @@
 // Copy to: app/app/canteen/page.tsx
 // Journey step 1: Ana opens /canteen and sees the wait.
 
+import WhySlow from "./WhySlow";
+
 export default function CanteenPage() {
   // Sprint 1 first deploy: hard-coded numbers so the phone URL works
   // before Neon is wired. Replace with sql`select ... from canteen_status`
@@ -49,18 +51,7 @@ export default function CanteenPage() {
         </p>
       </section>
 
-      <section
-        style={{
-          border: "1px solid #2a3340",
-          borderRadius: 12,
-          padding: 16,
-        }}
-      >
-        <p style={{ margin: 0, opacity: 0.7, fontSize: 13 }}>Why it is slow</p>
-        <p style={{ margin: "8px 0 0", fontSize: 18 }}>
-          Moving slowly: {reason}
-        </p>
-      </section>
+      <WhySlow reason={reason} />
     </main>
   );
 }
