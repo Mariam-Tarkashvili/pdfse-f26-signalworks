@@ -7,7 +7,7 @@
 |---|---|
 | Prototype | https://kiu-break-bite-clock.lovable.app/ |
 | Board | https://github.com/users/Mariam-Tarkashvili/projects/2 |
-| Live product | coming Week 7 |
+| Live product | https://pdfse-f26-signalworks-one.vercel.app/canteen |
 | Analytics dashboard (PostHog) | coming Week 7 |
 | 12-month model | coming Week 12 |
 | Pitch deck | coming Week 13 |
