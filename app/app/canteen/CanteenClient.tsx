@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { capture } from "../../lib/analytics";
+import { capture, isTeamDevice, visitorId } from "../../lib/analytics";
 import WhySlow from "./WhySlow";
 
 type Props = { minutes: number; reason: string | null; updatedAt: string; sample: boolean };
@@ -72,15 +72,28 @@ export default function CanteenClient({ minutes, reason, updatedAt, sample }: Pr
 
   // Step 5: the north star event. One decision per visit.
   // tapAt is the click's timestamp (same clock as performance.now()).
-  function decide(d: "go" | "skip", tapAt: number) {
+  // Saved to the database first; the event fires only after the save worked,
+  // so PostHog and the database count the same taps.
+  async function decide(d: "go" | "skip", tapAt: number) {
     if (decision) return;
     setDecision(d);
-    capture("student_makes_lunch_decision", {
+    const props = {
       decision: d,
       minutes,
       minutes_to_spare: minutesToSpare,
       seconds_on_page: Math.round((tapAt - openedAt.current) / 1000),
-    });
+    };
+    try {
+      const res = await fetch("/api/decision", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...props, visitor_id: visitorId(), is_team: isTeamDevice() }),
+      });
+      if (!res.ok) return;
+    } catch {
+      return;
+    }
+    capture("student_makes_lunch_decision", props);
   }
 
   const updatedLabel = sample
