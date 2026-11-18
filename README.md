@@ -11,6 +11,6 @@
 | Analytics dashboard (PostHog) | https://eu.posthog.com/shared/qUv2Evycr4BxigNgbQ6Ns3YspoJKhQ |
 | 12-month model | coming Week 12 |
 | Pitch deck | coming Week 13 |
-| One-pager | coming Week 15 |
+| One-pager | coming Week 15 | 
 
 See DECISIONS.md for every product decision and the evidence behind it.
