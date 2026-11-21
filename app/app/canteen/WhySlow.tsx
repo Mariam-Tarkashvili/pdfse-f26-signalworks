@@ -17,9 +17,19 @@ export default function WhySlow({ reason }: { reason?: string | null }) {
   if (!text) return null;
 
   return (
-    <section style={{ border: "1px solid #2a3340", borderRadius: 12, padding: 16 }}>
-      <p style={{ margin: 0, opacity: 0.7, fontSize: 13 }}>Why it is slow</p>
-      <p style={{ margin: "8px 0 0", fontSize: 18 }}>Moving slowly: {text}</p>
+    <section
+      style={{
+        border: "1px solid #343d4a",
+        borderRadius: 14,
+        padding: "14px 16px 16px",
+        background: "#161c24",
+        marginBottom: 8,
+      }}
+    >
+      <p style={{ margin: 0, fontSize: 13, color: "#9aa3ad" }}>Why it is slow</p>
+      <p style={{ margin: "10px 0 0", fontSize: 17, lineHeight: 1.35 }}>
+        Moving slowly: {text}
+      </p>
     </section>
   );
 }

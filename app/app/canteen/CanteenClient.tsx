@@ -6,12 +6,25 @@ import WhySlow from "./WhySlow";
 
 type Props = { minutes: number; reason: string | null; updatedAt: string; sample: boolean };
 
-const card = { border: "1px solid #2a3340", borderRadius: 12, padding: 16, marginBottom: 16 } as const;
-const label = { margin: 0, opacity: 0.7, fontSize: 13 } as const;
-const big = { margin: "8px 0 0", fontSize: 18 } as const;
+const card = {
+  border: "1px solid #343d4a",
+  borderRadius: 14,
+  padding: "14px 16px 16px",
+  marginBottom: 12,
+  background: "#161c24",
+} as const;
 
 function hhmm(d: Date) {
   return d.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
+}
+
+function formatUpdatedAgo(minutesSince: number) {
+  if (minutesSince <= 0) return "Updated just now";
+  if (minutesSince < 60) return `Updated ${minutesSince} min ago`;
+  const hours = Math.floor(minutesSince / 60);
+  if (hours < 48) return `Updated ${hours}h ago`;
+  const days = Math.floor(hours / 24);
+  return `Updated ${days}d ago`;
 }
 
 // Default class time: 30 min from now, rounded up to the next :00 or :30.
@@ -37,10 +50,13 @@ export default function CanteenClient({ minutes, reason, updatedAt, sample }: Pr
   const opened = useRef(false);
   const openedAt = useRef(0);
 
-  const minutesSinceUpdate = now ? Math.max(0, Math.round((now.getTime() - new Date(updatedAt).getTime()) / 60000)) : 0;
+  const minutesSinceUpdate = now
+    ? Math.max(0, Math.round((now.getTime() - new Date(updatedAt).getTime()) / 60000))
+    : 0;
   const foodBy = now ? new Date(now.getTime() + minutes * 60000) : null;
   const classDate = now ? classTimeToday(now, classAt) : null;
-  const minutesToSpare = foodBy && classDate ? Math.round((classDate.getTime() - foodBy.getTime()) / 60000) : 0;
+  const minutesToSpare =
+    foodBy && classDate ? Math.round((classDate.getTime() - foodBy.getTime()) / 60000) : 0;
 
   // Steps 1 and 2: page opened, wait seen. Once per load.
   useEffect(() => {
@@ -57,7 +73,10 @@ export default function CanteenClient({ minutes, reason, updatedAt, sample }: Pr
     });
     capture("student_sees_wait", {
       minutes,
-      minutes_since_update: Math.max(0, Math.round((t.getTime() - new Date(updatedAt).getTime()) / 60000)),
+      minutes_since_update: Math.max(
+        0,
+        Math.round((t.getTime() - new Date(updatedAt).getTime()) / 60000),
+      ),
     });
   }, [minutes, updatedAt]);
 
@@ -65,15 +84,16 @@ export default function CanteenClient({ minutes, reason, updatedAt, sample }: Pr
   useEffect(() => {
     if (!now) return;
     const id = setTimeout(() => {
-      capture("student_sees_break_fit", { minutes, class_at: classAt, minutes_to_spare: minutesToSpare });
+      capture("student_sees_break_fit", {
+        minutes,
+        class_at: classAt,
+        minutes_to_spare: minutesToSpare,
+      });
     }, 800);
     return () => clearTimeout(id);
   }, [now, classAt, minutes, minutesToSpare]);
 
   // Step 5: the north star event. One decision per visit.
-  // tapAt is the click's timestamp (same clock as performance.now()).
-  // Saved to the database first; the event fires only after the save worked,
-  // so PostHog and the database count the same taps.
   async function decide(d: "go" | "skip", tapAt: number) {
     if (decision) return;
     setDecision(d);
@@ -87,7 +107,11 @@ export default function CanteenClient({ minutes, reason, updatedAt, sample }: Pr
       const res = await fetch("/api/decision", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...props, visitor_id: visitorId(), is_team: isTeamDevice() }),
+        body: JSON.stringify({
+          ...props,
+          visitor_id: visitorId(),
+          is_team: isTeamDevice(),
+        }),
       });
       if (!res.ok) return;
     } catch {
@@ -98,36 +122,69 @@ export default function CanteenClient({ minutes, reason, updatedAt, sample }: Pr
 
   const updatedLabel = sample
     ? "Sample number: no live data connected"
-    : minutesSinceUpdate === 0
-      ? "Updated just now"
-      : `Updated ${minutesSinceUpdate} min ago`;
+    : formatUpdatedAgo(minutesSinceUpdate);
 
   const late = minutesToSpare < 0;
 
   return (
     <>
-      <h1 style={{ fontSize: 28, lineHeight: 1.2, margin: "0 0 12px" }}>
+      <h1
+        style={{
+          fontSize: 30,
+          lineHeight: 1.2,
+          fontWeight: 650,
+          margin: "0 0 8px",
+          letterSpacing: "-0.02em",
+        }}
+      >
         About {minutes} minutes from the door to the counter
       </h1>
-      <p style={{ opacity: 0.75, marginBottom: 28 }}>{updatedLabel}</p>
+      <p style={{ margin: "0 0 22px", color: "#9aa3ad", fontSize: 14 }}>{updatedLabel}</p>
 
       <section style={card}>
-        <p style={label}>Against your break{now ? ` · now ${hhmm(now)}` : ""}</p>
-        <label style={{ display: "block", margin: "10px 0 0", fontSize: 15 }}>
-          My class starts at{" "}
+        <p style={{ margin: 0, fontSize: 13, color: "#9aa3ad" }}>
+          Against your break{now ? ` · now ${hhmm(now)}` : ""}
+        </p>
+        <label
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            gap: 12,
+            marginTop: 12,
+            fontSize: 15,
+          }}
+        >
+          <span>My class starts at</span>
           <input
             type="time"
             value={classAt}
             onChange={(e) => e.target.value && setClassAt(e.target.value)}
-            style={{ fontSize: 16, padding: "4px 6px", borderRadius: 6, border: "1px solid #2a3340", background: "#1a222c", color: "#f4f1ea", colorScheme: "dark" }}
+            style={{
+              fontSize: 16,
+              padding: "8px 10px",
+              borderRadius: 10,
+              border: "1px solid #3a4554",
+              background: "#0f1419",
+              color: "#f4f1ea",
+              colorScheme: "dark",
+              minWidth: 120,
+            }}
           />
         </label>
         {foodBy && (
           <>
-            <p style={big}>
+            <p style={{ margin: "14px 0 0", fontSize: 17, lineHeight: 1.35 }}>
               Food by {hhmm(foodBy)}. Your class starts at {classAt}.
             </p>
-            <p style={{ margin: "6px 0 0", fontSize: 16, color: late ? "#ff6b6b" : "#7bd88f" }}>
+            <p
+              style={{
+                margin: "8px 0 0",
+                fontSize: 15,
+                fontWeight: 600,
+                color: late ? "#ff7b7b" : "#7bd88f",
+              }}
+            >
               {late
                 ? `No time: you would be ${-minutesToSpare} min late`
                 : `${minutesToSpare} minutes to spare`}
@@ -138,25 +195,37 @@ export default function CanteenClient({ minutes, reason, updatedAt, sample }: Pr
 
       <WhySlow reason={reason} />
 
-      <section style={{ marginTop: 24 }}>
+      <section style={{ marginTop: 20 }}>
         {decision ? (
-          <p style={{ fontSize: 18, textAlign: "center" }}>
+          <p
+            style={{
+              fontSize: 17,
+              textAlign: "center",
+              padding: "16px 12px",
+              borderRadius: 14,
+              background: "#161c24",
+              border: "1px solid #343d4a",
+              margin: 0,
+            }}
+          >
             Noted: {decision === "go" ? "you're going" : "you're skipping"}
           </p>
         ) : (
-          <div style={{ display: "flex", gap: 12 }}>
+          <div style={{ display: "flex", gap: 10 }}>
             {(["go", "skip"] as const).map((d) => (
               <button
                 key={d}
                 onClick={(e) => decide(d, e.timeStamp)}
                 style={{
                   flex: 1,
-                  padding: "14px 0",
-                  fontSize: 18,
-                  borderRadius: 12,
+                  padding: "15px 0",
+                  fontSize: 17,
+                  fontWeight: 600,
+                  borderRadius: 14,
                   border: "none",
                   background: d === "go" ? "#7bd88f" : "#2a3340",
                   color: d === "go" ? "#0f1419" : "#f4f1ea",
+                  cursor: "pointer",
                 }}
               >
                 {d === "go" ? "I'd go" : "I'd skip"}

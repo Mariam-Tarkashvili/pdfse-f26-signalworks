@@ -18,14 +18,24 @@ export default function CanteenPage() {
         minHeight: "100dvh",
         maxWidth: 420,
         margin: "0 auto",
-        padding: "24px 20px 40px",
+        padding: "28px 20px 48px",
         fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, sans-serif',
-        background: "#0f1419",
+        background: "linear-gradient(180deg, #121820 0%, #0f1419 40%)",
         color: "#f4f1ea",
       }}
     >
-      <p style={{ opacity: 0.7, fontSize: 14, marginBottom: 8 }}>KIU canteen · right now</p>
-      <Suspense fallback={<p style={{ opacity: 0.7 }}>Loading the wait…</p>}>
+      <p
+        style={{
+          margin: "0 0 6px",
+          fontSize: 13,
+          letterSpacing: "0.04em",
+          textTransform: "uppercase",
+          color: "#9aa3ad",
+        }}
+      >
+        KIU canteen · right now
+      </p>
+      <Suspense fallback={<p style={{ color: "#9aa3ad" }}>Loading the wait…</p>}>
         <CanteenStatusLoader />
       </Suspense>
     </main>
