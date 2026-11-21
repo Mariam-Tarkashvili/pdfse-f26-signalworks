@@ -68,11 +68,11 @@ Sum: R3+R4 done (MT, 3 h). Left this week: L1+L2 (LM). Mid-week look under Predi
 
 | Code name and role | Log or session they come from | How the link reaches them | Sent by, and by when | Opened? (fill in during the week) |
 |---|---|---|---|---|
-| Levan Chichinadze · 3rd-year MGMT, short break | `01-discovery/interview-logs/01-student-cafeteria.md` | Messenger / chat with production URL | LM, by Sat 21 Nov | |
-| Nikoloz Lomsadze · 4th-year law, 20-min break | `01-discovery/interview-logs/04-law-student-lecture-hall.md` | Messenger / chat with production URL | LM, by Sat 21 Nov | |
-| Tamar Museridze · 3rd-year MGMT, library blocks | `01-discovery/interview-logs/05-business-student-library.md` | Telegram / Messenger with production URL | LM, by Sat 21 Nov | |
-| Giorgi Mikadze · 4th-year CS, 30-min break | `01-discovery/interview-logs/07-student-kiu.md` | Chat with production URL | LM, by Sat 21 Nov | |
-| Giorgi Gachechiladze · 3rd-year management, late break | `01-discovery/interview-logs/08-student-kiu.md` | Chat with production URL | LM, by Sat 21 Nov | |
+| Levan Chichinadze · 3rd-year MGMT, short break | `01-discovery/interview-logs/01-student-cafeteria.md` | Messenger / chat with production URL | LM, by Sat 21 Nov |Yes |
+| Nikoloz Lomsadze · 4th-year law, 20-min break | `01-discovery/interview-logs/04-law-student-lecture-hall.md` | Messenger / chat with production URL | LM, by Sat 21 Nov |Yes |
+| Tamar Museridze · 3rd-year MGMT, library blocks | `01-discovery/interview-logs/05-business-student-library.md` | Telegram / Messenger with production URL | LM, by Sat 21 Nov |Yes |
+| Giorgi Mikadze · 4th-year CS, 30-min break | `01-discovery/interview-logs/07-student-kiu.md` | Chat with production URL | LM, by Sat 21 Nov |Yes |
+| Giorgi Gachechiladze · 3rd-year management, late break | `01-discovery/interview-logs/08-student-kiu.md` | Chat with production URL | LM, by Sat 21 Nov |Yes |
 
 **What we tell them:**  
 EN: "We put the canteen wait on a phone page — open this link before you decide to queue. Tap I'd go or I'd skip after you read it. Student project; we only count opens and go/skip taps, no names."  
