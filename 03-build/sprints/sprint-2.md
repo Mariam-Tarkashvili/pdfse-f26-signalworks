@@ -23,8 +23,8 @@ Our definition of done: merged to `main`, deployed at the public Vercel URL, wal
 |---|---|---|---|
 | 1 Production URL loads on a phone | Yes | https://pdfse-f26-signalworks-one.vercel.app/canteen · BR walk, mobile data | |
 | 2 Journey completes there | Yes | wait → break fit → I'd go / I'd skip → "Noted" | |
-| 3 North star event in Activity, from production | Pending | Dashboard shows `student_makes_lunch_decision` (week count 8; funnel 10→7). Live column / Activity row confirm: MT | MT, Sun 23 Nov 22:00 |
-| 4 Counts reconcile | No | PostHog week count 8 written once MT pastes schema; Neon count empty | MT, Mon 24 Nov 22:00 |
+| 3 North star event in Activity, from production | Yes | BR's walk Sat 21 Nov 15:00–15:05: all 5 events in Activity from production, Live column filled by MT in `03-build/analytics/event-schema.md` | |
+| 4 Counts reconcile | Yes | PostHog 1 = database 1 for BR's walk window (Gate reconcile block in `03-build/analytics/event-schema.md`) | |
 | 5 Dashboard, linked in README | Yes | https://eu.posthog.com/shared/qUv2Evycr4BxigNgbQ6Ns3YspoJKhQ | |
 
 ## Real hours before Lab 8
@@ -44,9 +44,13 @@ In this order: missing rungs, then anything that slipped from Sprint 1, then at 
 
 **Done when:** MT watches Activity (or confirms recent production rows), adds the `Live` column to `03-build/analytics/event-schema.md`, and writes `yes` only for events seen from the production URL.
 
+**Status:** done, Sat 21 Nov: all 5 events `yes`.
+
 ### R4 · Reconcile PostHog and Neon · owner MT · reviewer BR · 2 h
 
 **Done when:** same window has PostHog count of `student_makes_lunch_decision` and Neon `decision` (or equivalent) count written in the Gate reconcile block; Match yes or no with the gap explained; internal filter set in PostHog.
+
+**Status:** done, Sat 21 Nov: PostHog 1 = database 1; internal filter `is_team ≠ true` on all insights.
 
 ### F1 · Send field links · owner BR · reviewer MT · 2 h
 
