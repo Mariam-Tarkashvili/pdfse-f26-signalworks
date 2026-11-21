@@ -52,39 +52,41 @@ In this order: missing rungs, then anything that slipped from Sprint 1, then at 
 
 **Status:** done, Sat 21 Nov: PostHog 1 = database 1; internal filter `is_team ≠ true` on all insights.
 
-### F1 · Send field links · owner BR · reviewer MT · 2 h
+### L1 · Who uses it this week · owner LM · reviewer BR · 1 h
 
-**Done when:** the three people in the field-week table have the production URL (not a preview), and the Sent by / by when cells are filled.
+**Done when:** Field week table has 3 to 5 real KIU students (not classmates), code names, how the link reaches them, who sends it, by when; and "What we tell them" in Georgian and English (no pitch; we count taps, not names).
 
-### F2 · Mid-week look · owner BR · 1 h
+### L2 · Send the links · owner LM · reviewer MT · 2 h
 
-**Done when:** BR opens the dashboard mid-week and writes one line under Prediction → Mid-week look.
+**Done when:** LM has sent the production URL to the people in the table; during the week he fills the Opened? column as they reply.
 
-Sum: R3+R4 done (3 h). Left for this week: F1 (2 h) + F2 (1 h). The rest held for whatever real users break.
+Sum: R3+R4 done (MT, 3 h). Left this week: L1+L2 (LM). Mid-week look under Prediction is MT (M5). Rest held for whatever real users break.
 
 ## Field week: who uses it
 
-3 to 5 real people from your ICP. Not classmates. Code names and roles only, as in your logs. Each gets the production URL, never a preview link.
+3 to 5 real people from your ICP. Not classmates. Code names and roles only, as in your logs. Each gets the production URL, never a preview link. **Owner: LM** (Lab 7 tasks L1/L2).
 
 | Code name and role | Log or session they come from | How the link reaches them | Sent by, and by when | Opened? (fill in during the week) |
 |---|---|---|---|---|
-| CS-Y2 · 2nd-year CS, short break | `01-discovery/interview-logs/01-student-cafeteria.md` | Messenger / chat with production URL | BR, by Sun 23 Nov | |
-| KIU-1 · 2nd-year law, 20-min break | `01-discovery/interview-logs/04-law-student-lecture-hall.md` | Messenger / chat with production URL | BR, by Sun 23 Nov | |
-| KIU-2 · 3rd-year business, library blocks | `01-discovery/interview-logs/05-business-student-library.md` | Telegram / Messenger with production URL | BR, by Mon 24 Nov | |
-| CS-Y2b · 2nd-year CS, 30-min break | `01-discovery/interview-logs/07-student-kiu.md` | Chat with production URL | MT, by Mon 24 Nov | |
-| MGT-Y2 · 2nd-year management, late break | `01-discovery/interview-logs/08-student-kiu.md` | Chat with production URL | LM, by Mon 24 Nov | |
+| CS-Y2 · 2nd-year CS, short break | `01-discovery/interview-logs/01-student-cafeteria.md` | Messenger / chat with production URL | LM, by Sat 21 Nov | |
+| KIU-1 · 2nd-year law, 20-min break | `01-discovery/interview-logs/04-law-student-lecture-hall.md` | Messenger / chat with production URL | LM, by Sat 21 Nov | |
+| KIU-2 · 3rd-year business, library blocks | `01-discovery/interview-logs/05-business-student-library.md` | Telegram / Messenger with production URL | LM, by Sat 21 Nov | |
+| CS-Y2b · 2nd-year CS, 30-min break | `01-discovery/interview-logs/07-student-kiu.md` | Chat with production URL | LM, by Sat 21 Nov | |
+| MGT-Y2 · 2nd-year management, late break | `01-discovery/interview-logs/08-student-kiu.md` | Chat with production URL | LM, by Sat 21 Nov | |
 
-**What we tell them:** "We put the canteen wait on a phone page — open this link before you decide to queue. Tap I'd go or I'd skip after you read it. Student project; we only count opens and go/skip taps, no names."
+**What we tell them:**  
+EN: "We put the canteen wait on a phone page — open this link before you decide to queue. Tap I'd go or I'd skip after you read it. Student project; we only count opens and go/skip taps, no names."  
+KA: "კაფეტერიის რიგის მოლოდინი ტელეფონის გვერდზეა — გახსენი ეს ლინკი სანამ რიგში ჩადგები. წაკითხვის შემდეგ დააჭირე I'd go ან I'd skip. სტუდენტური პროექტია; ვითვლით მხოლოდ გახსნებს და არჩევანს, სახელებს არა."
 
 ## Prediction
 
-Written in the lab, before the week starts. Never edited afterwards; Lab 8 reads it as written.
+Written in the lab, before the week starts. Never edited afterwards; Lab 8 reads it as written. **Owner: MT** (Lab 7 task M5).
 
 **By Lab 8:** 5 `student_makes_lunch_decision` events from real people, not our team. Also: at least 8 `student_opens_canteen` from those field links.
 
 **We are wrong if:** fewer than 2 real-people `student_makes_lunch_decision` events by Lab 8.
 
-**Mid-week look:** BR opens the dashboard on Wed 26 Nov and writes one line here: what the counts are and one thing we change because of them, or nothing.
+**Mid-week look:** MT opens the dashboard on Wed 26 Nov and writes one line here: what the counts are and one thing we change because of them, or nothing.
 
 ## The DECISIONS.md line
 
