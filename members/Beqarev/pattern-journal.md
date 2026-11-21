@@ -25,3 +25,21 @@ My favorite belief was that the real pain is the short break itself, not wait un
 Read Mariam's `02-design/prototype-plan.md` as Build lead so I know what we will actually ship to test: whether a student will decide from a wait signal on a phone instead of walking to the door. Outside my lane, I filled the empty `01-discovery/synthesis/patterns-analysis.md` (five whys on Patterns 1–3) so Milestone 1 rubric row 4 was not missing, and checked it against the problem statement root cause. Hack: started from the three strongest affinity clusters and the root cause already written in `01-discovery/problem-statement.md` instead of redoing five whys from scratch. `01-discovery/synthesis/patterns-analysis.md`, `02-design/prototype-plan.md`
 
 **DECISIONS.md:** Wk4 evidence includes `patterns-analysis.md`, which I completed.
+
+## Week 5 · One metric that matters
+
+As Build lead I stayed with the north star Mariam owned: go/skip decisions from the canteen wait, not page visits. Beyond my lane: I generated the Lovable prototype from `02-design/prototype-plan.md` (exactly three screens, will-not-appear list) and put the link in README so the frozen test had something to hit before production existed. Hack: one evening in Lovable instead of coding three screens by hand, then walked the one action on my phone. `https://kiu-break-bite-clock.lovable.app/`, `docs/ai-usage-log.md`
+
+**DECISIONS.md:** Wk6 prototype track line (owner BR) — written when the prototype shipped.
+
+## Week 6 · The smallest complete journey
+
+I wrote `03-build/architecture/architecture.md` for the five-step journey (phone → Vercel → Neon → PostHog) and created the Next.js app with the first `/canteen` screen so Sprint 1 had a real deploy target. Beyond my lane: pushed the home-page fix when Next 16 broke `force-dynamic` / redirect. Hack: shipped hard-coded wait numbers first so the phone URL worked before Neon was wired. Commits `e48b5b5`, `8041980`, `1c10fc4`.
+
+**DECISIONS.md:** architecture supports the Wk6 MVP boundary (owner MT).
+
+## Week 7 · Ship to learn
+
+Production is live at https://pdfse-f26-signalworks-one.vercel.app/canteen (Mariam finished PostHog, Neon, go/skip, deploy). My Week 7 ship work so far: Sprint 2 hours file, UI polish on the live page, and the Lab 7 walk on mobile data still pending with Mariam on Activity. Beyond my lane: writing Homework 2 ship report with commit links. Hack: small UI polish instead of a redesign so the gate walk stays on one screen. Commits `4a690f7`, `cffab4e`.
+
+**DECISIONS.md:** gate line still open until after the production walk / reconcile.
