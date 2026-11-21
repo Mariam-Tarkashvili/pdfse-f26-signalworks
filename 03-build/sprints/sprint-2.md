@@ -8,12 +8,12 @@ Our definition of done: merged to `main`, deployed at the public Vercel URL, wal
 
 | Story | Owner | Done by our definition? | If not: which clause is missing, and what happened |
 |---|---|---|---|
-| S1 · Ana taps go or skip | BR | Partly | Merged, live, decision works; BR walked production on mobile data. Missing: teammate-who-did-not-build-it walk + Live column in schema (MT confirms Activity) |
-| S2 · Ana opens the canteen page | BR | Partly | Same: live and `student_opens_canteen` on dashboard/funnel; Activity Live column still MT |
-| S3 · Ana sees the real wait | BR | Partly | Same: wait on live page; `student_sees_wait` on dashboard; Activity Live column still MT |
-| S4 · Ana sees the wait against her break | MT | Partly | Live on /canteen with class-time / break fit; `student_sees_break_fit` on dashboard. Live column + Activity confirm still open |
-| S5 · Ana sees why it is slow | LM | Partly | Reason on live page; `student_sees_reason` on dashboard. Live column + Activity confirm still open |
-| S6 · Deploy and instrument | BR | Partly | Live URL + PostHog dashboard in README; events fire from production. Reconcile numbers and Live column still open (MT) |
+| S1 · Ana taps go or skip | BR | Yes | Live column filled by MT after Activity confirm (was the missing clause) |
+| S2 · Ana opens the canteen page | BR | Yes | Live column filled by MT after Activity confirm |
+| S3 · Ana sees the real wait | BR | Yes | Live column filled by MT after Activity confirm |
+| S4 · Ana sees the wait against her break | MT | Yes | Live column filled by MT after Activity confirm |
+| S5 · Ana sees why it is slow | LM | Yes | Live column filled by MT after Activity confirm |
+| S6 · Deploy and instrument | BR | Yes | Live column + reconcile done by MT (PostHog 1 = database 1) |
 
 **Slip rule:** did not fire. S4 (class-time / break fit) shipped on the live page; S1, S2, S3, S6 stayed as written.
 
@@ -60,7 +60,7 @@ In this order: missing rungs, then anything that slipped from Sprint 1, then at 
 
 **Done when:** BR opens the dashboard mid-week and writes one line under Prediction → Mid-week look.
 
-Sum: 6 of 18 hours. The rest held for whatever real users break, plus LM on S5 polish if Activity shows a gap.
+Sum: R3+R4 done (3 h). Left for this week: F1 (2 h) + F2 (1 h). The rest held for whatever real users break.
 
 ## Field week: who uses it
 
