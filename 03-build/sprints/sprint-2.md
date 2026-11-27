@@ -85,7 +85,7 @@ By Lab 8: 5 student_makes_lunch_decision events from real people, not our team. 
 We are wrong if: fewer than 2 real-people student_makes_lunch_decision events by Lab 8.
 
 Mid-week look: MT opens the dashboard on Wed 26 Nov and writes one line here: what the counts are and one thing we change because of them, or nothing.
-
+Done Fri 27 Nov (planned Thu 26 Nov) · MT: last 30 days, 25 people opened /canteen and 17 tapped go or skip (68%, above our 1-in-3 check, so the buttons get used); this week only 2 people tapped. Change: nothing on the page; the drop is in visits, so we remind our 5 field-week people at lunchtime.
 ## The DECISIONS.md line
 
 Add one of these to the bottom of DECISIONS.md (you commit this yourself):
