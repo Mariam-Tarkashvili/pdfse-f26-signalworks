@@ -23,15 +23,15 @@ I wrote the Week 5 and Week 6 entries late, on 18 Nov, and the Week 7 entry now.
 
 ### Week 5 · One metric that matters
 
-I chose our north star from three candidates: go or skip decisions made from the canteen wait per active student per week. I rejected page visits and students who ever opened the page because they count presence: a student can open the page and still walk to the door to look (log 04). I wrote the event schema around `student_makes_lunch_decision`, with a reconcile plan for its likely silent failure, students deciding without tapping. Beyond my lane, I split the Lab 5 and 6 work between the three of us with owners and deadlines.
+I chose our north star from three candidates: go or skip decisions made from the canteen wait per active student per week. I rejected page visits and students who ever opened the page because they count presence: a student can open the page and still walk to the door to look (log 04). I wrote the event schema around `student_makes_lunch_decision`, with a reconcile plan for its likely silent failure, students deciding without tapping. Beyond my lane, I split the Lab 5 and 6 work between the three of us with owners and deadlines. I had no hack this week.
 
 ### Week 6 · The smallest complete journey
 
-I wrote the MVP boundary from the five journey steps Beka had first sketched in the architecture, added the value hypothesis and cut ten features, including food-left status (03, 08). I wrote Sprint 1 with the north star step first and set up the board. I logged three test sessions while Beka ran them: all three failed on the prototype's navigation and missing decision button, not on trusting the number. Hack: I created the database from Vercel's Storage tab so the connection string was set automatically.
+I wrote the MVP boundary from the five journey steps Beka had first sketched in the architecture, added the value hypothesis and cut ten features, including food-left status (03, 08). I wrote Sprint 1 with the north star step first and set up the board. I logged three test sessions while Beka ran them: all three failed on the prototype's navigation and missing decision button, not on trusting the number. Beyond my lane (Build), I built and deployed Beka's stories S1, S3 and S6 on top of his page once the gate was missed. Hack: I created the database from Vercel's Storage tab so the connection string was set automatically.
 
 ### Week 7 · Ship to learn
 
-I made every go/skip tap save to the database before the event fires, so the two counts can be compared, and added a `?team=1` flag so our own phones can be filtered out. I set PostHog's internal filter on every tile and added the funnel and retention tiles. I missed Beka's walk live, so I found it afterwards in PostHog Activity by his visitor id, then counted the same six minutes in Neon: 1 and 1, and the gate passed. Beyond my lane, I split the Lab 7 work, keeping the PostHog and deploy tasks for myself.
+I made every go/skip tap save to the database before the event fires, so the two counts can be compared, and added a `?team=1` flag so our own phones can be filtered out. I set PostHog's internal filter on every tile and added the funnel and retention tiles. My hack: I missed Beka's walk live, so I found it afterwards in PostHog Activity by his visitor id, then counted the same six minutes in Neon: 1 and 1, and the gate passed. Beyond my lane, I split the Lab 7 work, keeping the PostHog and deploy tasks for myself.
 
 ## 3. My DECISIONS.md lines
 
